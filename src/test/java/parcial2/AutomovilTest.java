@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 
 public class AutomovilTest {
     // TODO: Descomenta el siguiente código una vez hayas completado la clase Automovil
-    /**
+    
     private Automovil automovil;
 
     @BeforeEach
@@ -21,7 +21,7 @@ public class AutomovilTest {
         assertNotNull(automovil, "El objeto Automovil no debería ser null");
         assertEquals("Honda", automovil.getMarca());
         assertEquals("Civic", automovil.getModelo());
-        assertEquals(2019, automovil.getAño());
+        assertEquals(2019, automovil.getAno());
         assertEquals(4, automovil.getNumeroPuertas());
         assertEquals(TipoCombustible.GASOLINA, automovil.getTipoCombustible());
     }
@@ -36,13 +36,13 @@ public class AutomovilTest {
     public void testGettersAndSetters() {
         automovil.setMarca("Toyota");
         automovil.setModelo("Corolla");
-        automovil.setAño(2020);
+        automovil.setAno(2020);
         automovil.setNumeroPuertas(5);
         automovil.setTipoCombustible(TipoCombustible.HIBRIDO);
 
         assertEquals("Toyota", automovil.getMarca());
         assertEquals("Corolla", automovil.getModelo());
-        assertEquals(2020, automovil.getAño());
+        assertEquals(2020, automovil.getAno());
         assertEquals(5, automovil.getNumeroPuertas());
         assertEquals(TipoCombustible.HIBRIDO, automovil.getTipoCombustible());
     }
@@ -58,5 +58,5 @@ public class AutomovilTest {
         automovil.setTipoCombustible(TipoCombustible.ELECTRICO);
         assertEquals(TipoCombustible.ELECTRICO, automovil.getTipoCombustible());
     }
-    **/
+    
 }

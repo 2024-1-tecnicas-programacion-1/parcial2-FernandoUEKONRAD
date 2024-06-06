@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 
 public class VehiculoTest {
     // TODO: Descomenta el siguiente código una vez hayas completado la clase Vehiculo
-    /**
+    
     private Vehiculo vehiculo;
 
     @BeforeEach
@@ -21,7 +21,7 @@ public class VehiculoTest {
         assertNotNull(vehiculo, "El objeto Vehiculo no debería ser null");
         assertEquals("Toyota", vehiculo.getMarca());
         assertEquals("Corolla", vehiculo.getModelo());
-        assertEquals(2020, vehiculo.getAño());
+        assertEquals(2020, vehiculo.getAno());
     }
 
     @Test
@@ -34,11 +34,11 @@ public class VehiculoTest {
     public void testGettersAndSetters() {
         vehiculo.setMarca("Honda");
         vehiculo.setModelo("Civic");
-        vehiculo.setAño(2021);
+        vehiculo.setAno(2021);
 
         assertEquals("Honda", vehiculo.getMarca());
         assertEquals("Civic", vehiculo.getModelo());
-        assertEquals(2021, vehiculo.getAño());
+        assertEquals(2021, vehiculo.getAno());
     }
 
     @Test
@@ -55,8 +55,8 @@ public class VehiculoTest {
 
     @Test
     public void testSetAño() {
-        vehiculo.setAño(2018);
-        assertEquals(2018, vehiculo.getAño());
+        vehiculo.setAno(2018);
+        assertEquals(2018, vehiculo.getAno());
     }
-    **/
+    
 }
